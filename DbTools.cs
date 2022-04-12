@@ -152,9 +152,7 @@ namespace media
                 }
                 else
                 {
-                    string _root = Directory.GetCurrentDirectory();
-                  
-                    b = Image.Load(_root + @"\\image\\Test.jpg");
+                    b = ImageTools.GetNoImage();
                 }
             }
             catch (Exception ex)

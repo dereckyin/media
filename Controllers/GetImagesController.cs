@@ -48,10 +48,10 @@ namespace media.Controllers
 
         
             // Get From File cache
-            Utility.SaveThumbNails(sc);
+            //Utility.SaveThumbNails(sc);
 
             // Get From DB
-            var output = DbTools.getImageFromDbByProdId(sc);
+            var output = DbTools.getImageFromDbByProdId_Test(sc);
 
             if (fill.Equals("f"))
             {
